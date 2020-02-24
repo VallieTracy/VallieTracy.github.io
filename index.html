@@ -1,42 +1,43 @@
 <!DOCTYPE html>
+<!-- CSS Stylesheets with Relative Paths -->
 <html lang="en-us">
 <head>
   <meta charset="UTF-8">
-  <title>Activity 1: Basic HTML Bio</title>
+  <title>CSS Stylesheets with Relative Paths</title>
+
+  <!-- This line is money! It points your HTML to the CSS file. -->
+  <!-- Notice the "relative" pathway? It matches a file inside our current directory's "assets" folder. Open it to see our style rules. -->
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
 
-<h1>Vallie Tracy</h1>
+  <header>
+    <h1>Student Bio</h1>
+  </header>
 
-<img src="https://i.imgur.com/fWs0CZa.jpg" alt="Vallie Tracy">
+  <main class="container">
+    <section id="main-bio">
+      <section id="figure">
+        <h2 id="bio-name">Your Name</h2>
+        <img id="bio-image" src="https://i.imgur.com/fWs0CZa.jpg" alt="Your Name">
+      </section>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vestibulum risus ut justo laoreet consectetur. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nunc dui neque, malesuada egestas aliquet ac, commodo in magna. Etiam mollis odio at mi maximus hendrerit. Integer aliquam id lectus nec hendrerit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris rhoncus eget nulla in ornare. Maecenas massa nibh, commodo non condimentum eu, congue tempus neque. Donec neque mi, ullamcorper eget fringilla et, iaculis vitae tortor. Curabitur vel nunc vel mi lobortis ornare ut non nulla. Etiam ornare libero ac suscipit aliquam. Nunc venenatis felis sit amet velit vehicula interdum. Vivamus iaculis condimentum nulla vitae dapibus.</p>
+    </section>
 
-<p>I'm currently in the University of Minnesota's Data Analysis
-  & Visualization Bootcamp.</p>
-
-<ul>
-  <li><strong>Email:</strong> <a href="#">trac0055@umn.edu</a></li>
-  <li><strong>Github:</strong> <a href="#">Github.com/VallieTracy</a></li>
-</ul>
-
-<table>
-  <tr>
-    <th>Tools</th>
-    <th>Databases</th>
-  </tr>
-  <tr>
-    <td>Excel</td>
-    <td>SQL</td>
-  </tr>
-  <tr>
-    <td>Python</td>
-    <td>Pandas</td>
-  </tr>
-</table>
-
-
-<a href="../README.md">My First HTML Bonus</a>
+    <aside id="contact-info">
+      <h2>Contact Info</h2>
+      <ul>
+        <li><strong>Email:</strong> <a href="#">someplace@gmail.com</a></li>
+        <li><strong>Github:</strong> <a href="#">sampleName</a></li>
+        <li><strong>Portfolio:</strong> <a href="#">coming soon</a></li>
+      </ul>
+    </aside>
+  </main>
 
 </body>
 
 </html>
+
+
+
