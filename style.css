@@ -3,7 +3,7 @@
  */
 
 /* Styling for HTML elements */
-body {
+/* body {
     padding: 0;
     margin: 0;
     font-family: Georgia, "Times New Roman", Times, serif;
@@ -32,16 +32,42 @@ body {
   
   a {
     color: #d21034;
-  }
+  } */
   
   /* Selecting elements by class */
-  .container {
+  /* .container {
     width: 1024px;
     margin: 0 auto;
+  } */
+
+  html,
+  body {
+    height: 100%;
+    background-color: #333;
   }
+
+
+  body {
+    display: -ms-flexbox;
+    display: flex;
+    color: #fff;
+    text-shadow: 0 .05rem .1rem rgba(0, 0, 0, 0.5);
+    box-shadow: inset 0 0 7rem 0px rgba(0, 0, 0, 0.5);
+  }
+
+  .vallie {
+    margin-top: 1rem;
+  }
+
+  /* #bio-image {
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+  } */
+
   
   /* Selecting elements by ID */
-  #main-bio,
+  /* #main-bio,
   #contact-info,
   #bio-image {
     float: left;
@@ -65,9 +91,6 @@ body {
     width: 30%;
   }
   
-  #bio-image {
-    width: 200px;
-    height: 200px;
-    margin-right: 20px;
-  }
   
+
+   */
