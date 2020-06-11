@@ -1,6 +1,6 @@
 .logos {
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
 }
 
 .tableau {
@@ -11,6 +11,18 @@
 .mongo {
   width: 150px;
   height: 100px;
+}
+
+.box {
+  margin-left: 450px;
+}
+
+.name {
+  margin-left: 350px;
+}
+
+.top-row {
+  margin-top: 30px;
 }
 /* Styling for HTML elements */
 /* body {
@@ -53,7 +65,7 @@
   html,
   body {
     height: 100%;
-    background-color: white;
+    background-color: #333;
   }
 
 
