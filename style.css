@@ -3,10 +3,22 @@
   height: 150px;
 }
 
+.python-3 {
+  width: 75px;
+  height: 75px;
+  margin-left: 450px;
+}
+
 .tableau {
   width: 175px;
   height: 100px;
   margin-left: -50px;
+}
+
+.tableau-3 {
+  width: 105px;
+  height: 60px;
+  margin-left: -10px;
 }
 
 .postgres {
@@ -20,9 +32,21 @@
   margin-left: -15px;
 }
 
+.aws-3 {
+  width: 105px;
+  height: 60px;
+  margin-left: -15px;
+}
+
 .mongo {
   width: 250px;
   height: 200px;
+  margin-left: -50px;
+}
+
+.mongo-3 {
+  width: 125px;
+  height: 100px;
   margin-left: -50px;
 }
 
@@ -34,6 +58,10 @@
   text-align: right;
 }
 
+.val-info-3 {
+  text-align: center;
+}
+
 /* .name {
   margin-left: 350px;
 } */
@@ -42,6 +70,12 @@
   margin-top: 30px;
   margin-left: 0px
 }
+
+.third-row {
+  margin-top: 30px;
+  margin-left: 0px
+}
+
 /* Styling for HTML elements */
 /* body {
     padding: 0;
