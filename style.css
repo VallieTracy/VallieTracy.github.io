@@ -1,57 +1,11 @@
-.logos {
-  width: 150px;
-  height: 150px;
-}
 
-.python-3 {
-  width: 75px;
-  height: 75px;
-  margin-left: 450px;
-}
 
-.tableau {
-  width: 175px;
-  height: 100px;
-  margin-left: -50px;
-}
 
-.tableau-3 {
-  width: 105px;
-  height: 60px;
-  margin-left: -10px;
-}
 
-.postgres {
-  margin-left: -30px;
-  margin-top: 45px;
-}
-
-.aws {
-  width: 175px;
-  height: 100px;
-  margin-left: -15px;
-}
-
-.aws-3 {
-  width: 105px;
-  height: 60px;
-  margin-left: -15px;
-}
-
-.mongo {
-  width: 250px;
-  height: 200px;
-  margin-left: -50px;
-}
-
-.mongo-3 {
-  width: 125px;
-  height: 100px;
-  margin-left: -50px;
-}
-
-.bottom-row {
-  margin-left: 520px;
+.title-box {
+  margin-left: 50px;
+  padding-right: 10px;
+  margin-top: 200px;
 }
  
 .val-info {
@@ -59,7 +13,7 @@
 }
 
 .val-info-3 {
-  text-align: center;
+  text-align: left;
 }
 
 /* .name {
@@ -117,7 +71,7 @@
   html,
   body {
     height: 100%;
-    background-color: #333;
+    background-color: rgb(49, 50, 51);
   }
 
 
