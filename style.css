@@ -170,14 +170,47 @@ hr:before {
   transition-delay: 1s;
 }
 
+#icons01 {
+  font-size: 1.5em;
+  width: calc(100% + 1.25rem);
+  margin-left: -0.625rem;
+}
+
 .icons {
   cursor: default;
   padding: 0;
   letter-spacing: 0;
 }
 
+#icons01 li {
+  margin: 0.625rem;
+}
+
+.icons li {
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  z-index: 1;
+}
+
 #icons01 .n01 {
   border: solid 1px #658CC7;
+}
+
+#icons01 .n01 .github {
+  height: 60px;
+  width: auto;
+}
+
+#icons01 .n02 .linkedin {
+  height: 30px;
+  width: auto;
+}
+
+#icons01 li a {
+  border-radius: 100%;
+  width: 6em;
+  height: 6em;
 }
 
 .icons li a {
@@ -185,6 +218,24 @@ hr:before {
   align-items: center;
   justify-content: center;
 }
+
+
+
+
+
+
+
+
+
+.icons li a .label {
+  display: none;
+}
+
+#icons01 .n02 {
+  border: solid 10px #5886E0;
+}
+
+
 
 
 
