@@ -4,7 +4,6 @@ body {
   background-color: rgb(49, 50, 51);
 }
 
-
 body {
   display: -ms-flexbox;
   display: flex;
@@ -27,6 +26,7 @@ section {
 *, *:before, *:after {
   box-sizing: border-box;
 }
+
 
 #text01 {
   text-transform: uppercase;
@@ -176,6 +176,8 @@ hr:before {
   margin-left: -0.625rem;
 }
 
+
+
 .icons {
   cursor: default;
   padding: 0;
@@ -253,6 +255,14 @@ hr:before {
   border: solid 3px #5886E0;
 }
 
+/* For rotating the image 180 degrees!!
+.arrow {
+  -webkit-transform:rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+} */
 
 
 
