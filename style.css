@@ -255,14 +255,15 @@ hr:before {
   border: solid 3px #5886E0;
 }
 
-/* For rotating the image 180 degrees!!
-.arrow {
+.arrow-rotate {
   -webkit-transform:rotate(180deg);
   -moz-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   -o-transform: rotate(180deg);
   transform: rotate(180deg);
-} */
+  height: 40px;
+  width: auto;
+} 
 
 
 
