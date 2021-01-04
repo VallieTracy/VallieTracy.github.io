@@ -200,29 +200,29 @@ hr:before {
 }
 
 #icons01 .n01 .github {
-  height: 60px;
+  height: 35px;
   width: auto;
 }
 
 #icons01 .n02 .linkedin {
-  height: 30px;
+  height: 20px;
   width: auto;
 }
 
 #icons01 .n03 .email {
-  height: 30px;
+  height: 20px;
   width: auto;
 }
 
 #icons01 .n04 .arrow {
-  height: 50px;
+  height: 29px;
   width: auto;
 }
 
 #icons01 li a {
   border-radius: 100%;
-  width: 4em;
-  height: 4em;
+  width: 2em;
+  height: 2em;
 }
 
 .icons li a {
@@ -244,15 +244,15 @@ hr:before {
 }
 
 #icons01 .n02 {
-  border: solid 10px #5886E0;
+  border: solid 2px #5886E0;
 }
 
 #icons01 .n03 {
-  border: solid 3px #5886E0;
+  border: solid 2px #5886E0;
 }
 
 #icons01 .n04 {
-  border: solid 3px #5886E0;
+  border: solid 1px #5886E0;
 }
 
 .arrow-rotate {
