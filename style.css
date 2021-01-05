@@ -334,7 +334,33 @@ hr:before {
   margin-right: calc(var(--bs-gutter-x)/ -2);
   margin-left: calc(var(--bs-gutter-x)/ -2);
 }
+/* I don't know that .row>* is doing anything.  Revisit! */
+.row>* {
+  max-width: 100%;
+  padding-right: calc(var(--bs-gutter-x)/ 2);
+  padding-left: calc(var(--bs-gutter-x)/ 2);
+  margin-top: var(--bs-gutter-y);
+}
 
+.shadow-sm {
+  box-shadow: 0 .125rem .25rem rgba(189, 31, 31, 0.075)!important;
+}
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  background-color:lawngreen;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-image-source: initial;
+  border-image-slice: initial;
+  border-image-width: initial;
+  border-image-outset: initial;
+  border-image-repeat: initial;
+  border-radius: .25rem;
+}
 
 
 
