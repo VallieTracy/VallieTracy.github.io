@@ -334,13 +334,7 @@ hr:before {
   margin-right: calc(var(--bs-gutter-x)/ -2);
   margin-left: calc(var(--bs-gutter-x)/ -2);
 }
-/* I don't know that .row>* is doing anything.  Revisit! */
-.row>* {
-  max-width: 100%;
-  padding-right: calc(var(--bs-gutter-x)/ 2);
-  padding-left: calc(var(--bs-gutter-x)/ 2);
-  margin-top: var(--bs-gutter-y);
-}
+
 
 .shadow-sm {
   box-shadow: 0 .125rem .25rem rgba(189, 31, 31, 0.075)!important;
@@ -360,6 +354,17 @@ hr:before {
   border-image-outset: initial;
   border-image-repeat: initial;
   border-radius: .25rem;
+}
+
+.card-body {
+  flex: 1 1 auto;
+  padding: 1rem 1rem;
+}
+
+/* This 'p' originally done for the cards of projects album, doesn't seem to be affecting index.html yet, but FYI */
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
 }
 
 
