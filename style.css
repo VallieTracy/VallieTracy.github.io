@@ -1,6 +1,6 @@
 html,
 body {
-  height: 110%;
+  height: 100%;
   background-color: rgb(49, 50, 51);
 }
 
@@ -200,29 +200,29 @@ hr:before {
 }
 
 #icons01 .n01 .github {
-  height: 35px;
+  height: 60px;
   width: auto;
 }
 
 #icons01 .n02 .linkedin {
-  height: 20px;
+  height: 30px;
   width: auto;
 }
 
 #icons01 .n03 .email {
-  height: 20px;
+  height: 30px;
   width: auto;
 }
 
 #icons01 .n04 .arrow {
-  height: 29px;
+  height: 50px;
   width: auto;
 }
 
 #icons01 li a {
   border-radius: 100%;
-  width: 2em;
-  height: 2em;
+  width: 4em;
+  height: 4em;
 }
 
 .icons li a {
@@ -244,15 +244,15 @@ hr:before {
 }
 
 #icons01 .n02 {
-  border: solid 2px #5886E0;
+  border: solid 10px #5886E0;
 }
 
 #icons01 .n03 {
-  border: solid 2px #5886E0;
+  border: solid 3px #5886E0;
 }
 
 #icons01 .n04 {
-  border: solid 1px #5886E0;
+  border: solid 3px #5886E0;
 }
 
 .arrow-rotate {
@@ -304,71 +304,6 @@ hr:before {
   width: 40rem;
 }
 
-#main > .inner-projects {
-  position: relative;
-  z-index: 1;
-  border-radius: inherit;
-  padding: 0.5rem;
-  max-height: 100%;
-  height: auto;
-  max-width: 100%;
-  width: auto;
-}
-
-.album {
-  background-color: #f8f9fa!important;
-}
-
-.container-fluid {
-  width: 100%;
-  padding-right: var(--bs-gutter-x,.75rem);
-  padding-left: var(--bs-gutter-x,.75rem);
-  margin-right: auto;
-  margin-left: auto;
-}
-
-.row {
-  display: flex;
-  flex-wrap: wrap;
-  margin-top: calc(var(--bs-gutter-y) * -1);
-  margin-right: calc(var(--bs-gutter-x)/ -2);
-  margin-left: calc(var(--bs-gutter-x)/ -2);
-}
-
-
-.shadow-sm {
-  box-shadow: 0 .125rem .25rem rgba(189, 31, 31, 0.075)!important;
-}
-
-.card {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  min-width: 0;
-  background-color:lawngreen;
-  background-clip: border-box;
-  border: 1px solid rgba(0, 0, 0, 0.125);
-  border-image-source: initial;
-  border-image-slice: initial;
-  border-image-width: initial;
-  border-image-outset: initial;
-  border-image-repeat: initial;
-  border-radius: .25rem;
-}
-
-.card-body {
-  flex: 1 1 auto;
-  padding: 1rem 1rem;
-}
-
-/* This 'p' originally done for the cards of projects album, doesn't seem to be affecting index.html yet, but FYI */
-p {
-  margin-top: 0;
-  margin-bottom: 1rem;
-}
-
-
-
 
 
 
@@ -390,6 +325,3 @@ p {
   height: 60px;
   width: auto;
 }
-
-
-
