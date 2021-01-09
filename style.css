@@ -326,59 +326,31 @@ hr:before {
   width: auto;
 }
 
-.text-center {
-  text-align: center!important;
-}
-
-.py-5 {
-  padding-top: 3rem!important;
-  padding-bottom: 3rem!important;
-}
-
-.container {
-  width: 100%;
-  padding-right: var(--bs-gutter-x,.75rem);
-  padding-left: var(--bs-gutter-x,.75rem);
-  margin-right: auto;
-  margin-left: auto;
-}
-
-.py-lg-5 {
-    padding-top: 3rem!important;
-    padding-bottom: 3rem!important;
-}
+/* ALL NEW STUFF, UNRELATED TO HOME PAGE! */
 
 .row {
-  --bs-gutter-x: 1.5rem;
-  --bs-gutter-y: 0.5rem;
-  display: flex;
-  flex-wrap: wrap;
-  margin-top: calc(var(--bs-gutter-y) * -1);
-  margin-right: calc(var(--bs-gutter-x)/ -2);
-  margin-left: calc(var(--bs-gutter-x)/ -2);
+  padding: 20px;
+  margin: unset;
 }
 
-.mx-auto {
-  margin-right: auto!important;
-  margin-left: auto!important;
-}
-
-.col-lg-6 {
-  flex: 0 0 auto;
-  width: 50%;
-}
-
-.col-md-8 {
-  flex: 0 0 auto;
-  width: 66.6666666667%;
-}
-
-.row>* {
-  flex-shrink: 0;
-  width: 100%;
-  max-width: 100%;
-  padding-right: calc(var(--bs-gutter-x)/ 2);
-  padding-left: calc(var(--bs-gutter-x)/ 2);
-  margin-top: var(--bs-gutter-y);
+.words {
+  text-transform: uppercase;
+  color: #FFFFFF;
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: 0.65rem;
+  width: calc(100% + 0.65rem);
+  font-size: 2.5em;
+  line-height: 1.175;
+  font-weight: 500;
+  text-align: center;
+  margin: unset;
+  padding: 10px;
   
 }
+
+
+
+
+
+
+
