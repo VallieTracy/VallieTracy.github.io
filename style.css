@@ -386,13 +386,11 @@ hr:before {
   border-top-right-radius: 0.25rem;  
 }
 
-.project-1 {
+.project {
   box-shadow: 0 .125rem .25rem rgba(0,0,0,.75)!important;
 }
 
-.project-test {
-  padding:unset;
-}
+
 
 
 
