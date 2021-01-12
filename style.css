@@ -337,8 +337,7 @@ hr:before {
 
 .row {
   padding: 20px;
-  margin: unset;
-  
+  margin: unset;  
 }
 
 .words {
@@ -386,9 +385,23 @@ hr:before {
   border-top-right-radius: 0.25rem;  
 }
 
-.project {
+.project-card {
   box-shadow: 0 .125rem .25rem rgba(0,0,0,.75)!important;
 }
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
 
 
 
