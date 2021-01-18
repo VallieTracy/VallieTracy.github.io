@@ -393,6 +393,10 @@ hr:before {
   background-color: lawngreen;
 }
 
+.card {
+  height: 100%;
+}
+
 
 
  
