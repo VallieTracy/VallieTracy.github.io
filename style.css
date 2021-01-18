@@ -382,11 +382,15 @@ hr:before {
 
 .image {
   border-top-left-radius: .25rem;
-  border-top-right-radius: 0.25rem;  
+  border-top-right-radius: 0.25rem;
 }
 
 .project-card {
   box-shadow: 0 .125rem .25rem rgba(0,0,0,.75)!important;
+}
+
+.whole-test-card {
+  background-color: lawngreen;
 }
 
 
