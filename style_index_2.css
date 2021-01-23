@@ -47,7 +47,7 @@ body {
     padding-bottom: 8px;
     padding-left: 8px;
     padding-right: 8px;
-    margin: unset;  
+    margin: unset; 
 }
 
 .col {
@@ -78,3 +78,13 @@ p {
     margin-inline-end: 0px;
 }
 
+.btn {
+    color: #292727;
+    font-family: 'Oswald', sans-serif;
+    background-color: #5886E0;  
+    margin: 30px; 
+}
+
+.button-row {
+    flex: 0px;
+}
