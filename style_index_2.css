@@ -116,6 +116,30 @@ hr:before {
     vertical-align: middle;
 }
 
+.link-circle {
+    border: solid 1.3px #658CC7;
+}
+  
+.github {
+    height: 40px;
+    width: auto;
+}
+
+.linkedin {
+    height: 25px;
+    width: auto;
+}
+
+.email {
+    height: 28px;
+    width: auto;
+}
+
+.arrow {
+    height: 28px;
+    width: auto;
+}
+
 ul {
     display: block;
     list-style-type: disc;
@@ -124,12 +148,11 @@ ul {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     padding-inline-start: 40px;
- }
+}
 
 #icons01 {
     font-size: 1.5em;
     width: calc(100% + 1.25rem);
-    margin-left: -0.625rem;
 }
 
 .icons {
@@ -149,34 +172,10 @@ ul {
     z-index: 1;
 }
 
-#icons01 .n01 {
-    border: solid 1px #658CC7;
-}
-
-#icons01 .n01 .github {
-    height: 60px;
-    width: auto;
-}
-
-#icons01 .n02 .linkedin {
-    height: 30px;
-    width: auto;
-}
-
-#icons01 .n03 .email {
-    height: 30px;
-    width: auto;
-}
-
-#icons01 .n04 .arrow {
-    height: 50px;
-    width: auto;
-}
-
 #icons01 li a {
     border-radius: 100%;
-    width: 4em;
-    height: 4em;
+    width: 2em;
+    height: 2em;
 }
 
 .icons li a {
@@ -185,28 +184,5 @@ ul {
     justify-content: center;
 }
 
-.icons li a .label {
-    display: none;
-}
 
-#icons01 .n02 {
-    border: solid 10px #5886E0;
-}
 
-#icons01 .n03 {
-    border: solid 3px #5886E0;
-}
-
-#icons01 .n04 {
-    border: solid 3px #5886E0;
-}
-
-/* .github {
-    height: 90px;
-    width: auto;
-}
-  
-.linkedin {
-    height: 60px;
-    width: auto;
-} */
