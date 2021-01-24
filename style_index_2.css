@@ -93,5 +93,26 @@ p {
     background-color: #5886E0; 
     width: 9rem; 
     margin: 20px;
+    text-shadow: none;
+}
+
+hr {
+    width: 100%;
+    position: relative;
+    padding: 20px;
+    border: 0;
+}
+
+#divider01:before {
+width: 15%;
+border-top: solid 1px rgba(255,255,255,0.231);
+height: 1px;
+margin-top: -0.5px;
+}
+
+hr:before {
+content: '';
+display: inline-block;
+vertical-align: middle;
 }
 
