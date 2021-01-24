@@ -103,16 +103,15 @@ hr {
     border: 0;
 }
 
-#divider01:before {
-width: 15%;
-border-top: solid 1px rgba(255,255,255,0.231);
-height: 1px;
-margin-top: -0.5px;
+#divider:before {
+    width: 15%;
+    border-top: solid 1px rgba(255,255,255,0.231);
+    height: 1px;
+    margin-top: -0.5px;
 }
 
 hr:before {
-content: '';
-display: inline-block;
-vertical-align: middle;
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
 }
-
