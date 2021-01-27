@@ -53,7 +53,16 @@ body {
 }
 
 .main-content {
-overflow: hidden;
+    overflow: hidden;
+    position: relative;
+}
+
+.inner-align {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
 }
 
 .row {
@@ -81,6 +90,18 @@ overflow: hidden;
 
 #wider {
     width: 65rem;
+}
+
+.card-img-top {
+    display: block;
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.squirrel {
+    width: 300px;
+    height: auto;
 }
 
 
