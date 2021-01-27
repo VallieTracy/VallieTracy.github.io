@@ -79,6 +79,10 @@ overflow: hidden;
     height: 100vh;
 }
 
+#wider {
+    width: 65rem;
+}
+
 
 #text02 {
     color: #FFFFFF;
