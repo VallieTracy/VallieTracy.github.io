@@ -42,6 +42,8 @@ body {
     flex-grow: 0;
     flex-shrink: 0;
     text-align: center;
+    height: 100%;
+    max-height: auto;
 }
 
 .container-fluid {
@@ -50,12 +52,20 @@ body {
     max-height: auto;
 }
 
+.main-content {
+overflow: hidden;
+}
+
 .row {
     padding-top: 8px;
     padding-bottom: 8px;
     padding-left: 8px;
     padding-right: 8px;
     margin: unset; 
+}
+
+#icons-row {
+    display: inline-block;
 }
 
 .col {
@@ -68,6 +78,7 @@ body {
     width: 45rem;
     height: 100vh;
 }
+
 
 #text02 {
     color: #FFFFFF;
@@ -153,7 +164,6 @@ ul {
 
 #icons01 {
     font-size: 1.5em;
-    width: calc(100% + 1.25rem);
 }
 
 .icons {
