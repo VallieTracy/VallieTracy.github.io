@@ -61,9 +61,10 @@ body {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-33.333%, -50%);
     width: 100%;
 }
+
 
 .row {
     padding-top: 8px;
@@ -99,11 +100,9 @@ body {
     object-fit: cover;
 }
 
-.squirrel {
-    width: 300px;
-    height: auto;
+#img1 {
+    margin-left: 40px;
 }
-
 
 #text02 {
     color: #FFFFFF;
