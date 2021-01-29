@@ -70,6 +70,23 @@ body {
     bottom: 18px;
     left: 36px;
 }
+/* Centered text
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  } */
+
+img:hover {
+    border-color: #FF757D;   
+    border-style: solid;
+    border-width: 4px;
+    /* opacity: .7; */
+}
+
+
+
 
 #text-overlay {
     text-transform: uppercase;
