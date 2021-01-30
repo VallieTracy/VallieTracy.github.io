@@ -161,6 +161,7 @@ body {
 #color-change {
     background-color: rgb(226, 221, 221);
     box-shadow: inset 0 0 7rem 0px rgba(0, 0, 0, 0.5);
+    padding-top: 2.5rem;
 }
 
 #wider {
@@ -218,6 +219,13 @@ p {
     margin-inline-end: 0px;
 }
 
+.writing-p {
+    font-family: 'Oswald', sans-serif;
+    text-align: left;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
 .btn {
     color: #a70c0c;
     font-family: 'Oswald', sans-serif;
@@ -246,6 +254,31 @@ hr:before {
     content: '';
     display: inline-block;
     vertical-align: middle;
+}
+
+#story-row-a {
+    background-color: #322F7C;
+    height: 250px;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+}
+
+.story-box-a {
+    width: 300px;
+    height: 175px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-10%, -42%);
+    border-style: solid;
+    border-width: 3px;
+    border-color: #FF757D;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    background-color: #43408a;
+    box-shadow: inset 0 0 3rem 0px rgba(0, 0, 0, 0.5);
 }
 
 .link-circle {
