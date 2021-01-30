@@ -267,6 +267,7 @@ p {
     background-color: #322F7C;
     height: 250px;
     position: relative;
+    overflow: hidden;
 }
 
 .story-box-a {
@@ -285,6 +286,42 @@ p {
     background-color: #43408a;
     box-shadow: inset 0 0 3rem 0px rgba(0, 0, 0, 0.5);
 }
+
+.writing-title {
+    font-family: 'Oswald', sans-serif;
+    /* text-align: left; */
+    letter-spacing: 0.45rem;
+    font-size: 1.95em;
+    line-height: 1.25em;
+    margin: 5px;
+    text-align: left;    
+}
+
+.txt1 {
+    position: absolute;
+    bottom: 21px;
+    left: 5px;
+    margin: unset;
+    line-height: 1;
+    font-weight: bolder;
+    font-size: small;
+}
+
+.txt2 {
+    position: absolute;
+    bottom: 1px;
+    left: 5px;
+    margin: unset;
+    line-height: 1;
+    font-style: italic;
+}
+
+#read-more {
+    margin-top: 0px;
+    color: #FF757D;
+    text-shadow: unset!important;
+}
+
 
 .link-circle {
     border: solid 1.3px #658CC7;
