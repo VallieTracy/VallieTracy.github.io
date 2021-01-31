@@ -416,9 +416,13 @@ ul {
 .sticky-cat {
     height: 150px;
     width: auto;
-    position: absolute;
-    bottom: 0px;
-    left: 5px;    
+    position: sticky;
+    top: calc(100vh - 150px);
+    left: 5px; 
+}
+
+#container-cat {
+    margin-top: -150px;
 }
 
 
