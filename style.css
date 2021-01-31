@@ -155,7 +155,7 @@ body {
     padding: 3.875rem 3.125rem;
     max-width: 100%;
     width: 45rem;
-    height: 99vh;
+    margin: 3px;
 }
 
 #color-change {
