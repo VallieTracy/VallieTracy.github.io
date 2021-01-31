@@ -413,12 +413,18 @@ ul {
     right: 1px;
 }
 
-.alien {
+.sticky-cat {
     height: 150px;
     width: auto;
     position: absolute;
     bottom: 0px;
+    left: 5px;    
 }
+
+
+
+
+
 
 
 
