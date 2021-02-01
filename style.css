@@ -156,6 +156,14 @@ body {
     max-width: 100%;
     width: 45rem;
     margin: 3px;
+    height: 99vh;
+}
+
+.center-content-expand {
+    padding: 3.875rem 3.125rem;
+    max-width: 100%;
+    width: 45rem;
+    margin: 3px;
 }
 
 #color-change {
@@ -418,7 +426,7 @@ ul {
     width: auto;
     position: sticky;
     top: calc(100vh - 150px);
-    left: 5px; 
+    left: 50px; 
 }
 
 #container-cat {
