@@ -8,6 +8,10 @@ body, .page1 {
     height: 100vh;
 }
 
+.page1 {
+    overflow: hidden;
+}
+
 .color-index {
     background-color: #322F7C;
 }
@@ -94,7 +98,7 @@ body {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-110%, -50%);
+    transform: translate(-120%, -60%);
     text-align: center;
     padding: 20px;
     background-color: #322F7C;
@@ -134,7 +138,7 @@ body {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(10%, -50%);
+    transform: translate(20%, -60%);
     text-align: center;
     padding: 20px;
     background-color: #322F7C;
@@ -167,6 +171,14 @@ body {
 
 .center-content {
     padding: 3.875rem 3.125rem;
+    max-width: 100%;
+    width: 45rem;
+    margin: 3px;
+    height: 99vh;
+}
+
+.center-content-writing {
+    padding: 0.875rem 3.125rem;
     max-width: 100%;
     width: 45rem;
     margin: 3px;
@@ -384,6 +396,22 @@ ul {
     padding-inline-start: 40px;
 }
 
+#ul-header {
+    margin-block-start: 1em;
+}
+
+#col-header {
+    padding: 0px;
+}
+
+#left-link {
+    padding-left: 90px;
+}
+
+#right-link {
+    padding-right: 90px;
+}
+
 #icons01 {
     font-size: 1.5em;
 }
@@ -442,6 +470,11 @@ ul {
     top: calc(100vh - 150px);
     left: 50px; 
 }
+
+/* #sticky-header {
+    position: sticky;
+    top: 0px;
+} */
 
 #container-cat {
     margin-top: -150px;
