@@ -1,26 +1,40 @@
 html,
 body {
     height: auto!important;
-    background-color: rgb(49, 50, 51); 
 }
 
 html,
 body, .page1 {
     height: 100vh;
+}
+
+.color-index {
+    background-color: #322F7C;
+}
+
+.color-writings {
     background-color: rgb(49, 50, 51); 
+}
+
+.color-projects {
+    background-color: rgb(238, 228, 228);
+}
+
+.color-creative {
+    background-color: #FF757D;
 }
 
 body {
     display: -ms-flexbox; 
     display: flex; 
-    color: #fff;
+    color: #FFFFFF;
     text-shadow: 0 .05rem .1rem rgba(0, 0, 0, 0.5);
     box-shadow: inset 0 0 7rem 0px rgba(0, 0, 0, 0.5);
 }
 
 #text01 {
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: #FF757D;
     font-family: 'Oswald', sans-serif;
     letter-spacing: 0.65rem;
     width: 100%;
@@ -65,8 +79,8 @@ body {
 }
 
 .album-container {
-    background-color: rgb(88, 89, 90);
-    box-shadow: inset 0 0 7rem 0px rgba(0, 0, 0, 0.5);
+    /* background-color: rgb(88, 89, 90); */
+    /* box-shadow: inset 0 0 7rem 0px rgba(0, 0, 0, 0.5); */
     padding: 10px;
     margin: 10px;
 }
@@ -235,10 +249,10 @@ p {
 }
 
 .btn {
-    color: #a70c0c;
+    color: #322F7C;
     font-family: 'Oswald', sans-serif;
     font-size: 1.1em ;
-    background-color: #5886E0; 
+    background-color: #FF757D; 
     width: 9rem; 
     margin: 20px;
     text-shadow: none;
@@ -431,6 +445,11 @@ ul {
 
 #container-cat {
     margin-top: -150px;
+}
+
+.oip {
+    width: 80%;
+    height: auto;
 }
 
 
