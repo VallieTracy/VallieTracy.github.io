@@ -18,8 +18,7 @@ body, .page1 {
 
 .color-projects, .color-writings,
 .color-creative {
-    background-color: #FFFFFF;
-    box-shadow: unset;
+    background-color: #322F7C;
 }
 
 body {
@@ -64,7 +63,7 @@ body {
 
 .words {
     text-transform: uppercase;
-    color: #322f7C;
+    color: #FF757D;
     font-family: 'Oswald', sans-serif;
     letter-spacing: 0.65rem;
     /* width: calc(100% + 0.65rem); */
@@ -84,7 +83,7 @@ body {
 }
 
 .left-text {
-    color: #322f7C;
+    color: #322F7C;
     font-size: 16px;
     font-weight: bold;
     background-color: #FF757D;
@@ -93,7 +92,7 @@ body {
 }
 
 .right-text {
-    color: #322f7C;
+    color: #FF757D;
     font-size: 16px;
     
 }
@@ -238,7 +237,7 @@ body {
     height: 100%;
     border-style: solid;
     border-width: 3px  ;
-    border-color: #FF757D;
+    border-color: #322F7C;
     box-shadow: 0 .125rem .25rem rgba(0,0,0,.75)!important;
 }
 
@@ -320,7 +319,7 @@ p {
 }
 
 #story-row-a {
-    background-color: #322F7C;
+    background-color: #FF757D;
     height: 250px;
     position: relative;
     overflow: hidden;
@@ -335,11 +334,11 @@ p {
     transform: translate(-10%, -42%);
     border-style: solid;
     border-width: 3px;
-    border-color: #FF757D;
+    border-color: #322F7C;
     border-top: 0px;
     border-left: 0px;
     border-right: 0px;
-    background-color: #43408a;
+    background-color: #FF757D;
     box-shadow: inset 0 0 3rem 0px rgba(0, 0, 0, 0.5);
 }
 
