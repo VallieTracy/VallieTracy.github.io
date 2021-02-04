@@ -83,7 +83,7 @@ body {
 }
 
 .portal-border {
-    border: solid 3px #FFFFFF;
+    /* border: solid 3px #FFFFFF; */
     padding: unset;
     position: relative;
     
@@ -116,6 +116,17 @@ body {
     background-color: yellow;
     right: 0;
     bottom: 0;
+}
+
+.sqrl {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+#peek {
+    height: 50px;
+    width: auto;
 }
 
 .words {
