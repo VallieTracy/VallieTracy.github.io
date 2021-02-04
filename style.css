@@ -1,16 +1,16 @@
 html,
 body {
-    height: auto!important;
+    height: auto;
 }
 
-html,
-body, .page1 {
+/* .page1 {
     height: 100vh;
-}
+} */
 
-.page1 {
+/* .page1 {
     overflow: hidden;
-}
+}  */
+
 
 .color-index {
     background-color: #322F7C;
@@ -45,7 +45,7 @@ body {
     display: flex;
     position: relative;
     max-width: 100%;
-    z-index: 1;
+    z-index: 14;
     align-items: center;
     justify-content: center;
     flex-grow: 0;
@@ -55,10 +55,33 @@ body {
     max-height: auto;
 }
 
+.testing {
+    object-fit: cover;
+}
+
 .container-fluid {
     width: 100%;
     height: 100%;
     max-height: auto;
+}
+
+.overall-container {
+    position: fixed;
+    box-shadow: inset 0 0 7rem 0px rgba(0, 0, 0, 0.5)
+}
+
+#portal-row {
+    height: calc(100% - 10rem);
+    width: auto;
+    padding: 30px;
+}
+
+.portal {
+    padding: 30px;
+}
+
+.portal-border {
+    border: solid 3px #FFFFFF;
 }
 
 .words {
@@ -73,7 +96,7 @@ body {
     text-align: center;
     margin: 0 auto;
     padding: 10px;
-    /* border: solid 3px #FF757D; */ */
+    /* border: solid 3px #FF757D; */ 
 }
 
 #header-text {
@@ -188,7 +211,7 @@ body {
     max-width: 100%;
     width: 45rem;
     margin: 3px;
-    height: 99vh;
+    height: 100vh;
 }
 
 .center-content-writing {
@@ -196,7 +219,7 @@ body {
     max-width: 100%;
     width: 45rem;
     margin: 3px;
-    height: 99vh;
+    height: 100vh;
 }
 
 .center-content-expand {
