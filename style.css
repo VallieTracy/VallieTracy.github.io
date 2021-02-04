@@ -78,25 +78,35 @@ body {
 
 .portal {
     padding: 30px;
+    border: solid 15px #FF757D;
+    box-shadow: inset 0 0 7rem 0px rgba(0, 0, 0, 0.3);
 }
 
 .portal-border {
     border: solid 3px #FFFFFF;
     padding: unset;
     position: relative;
-    box-shadow: inset 0 0 7rem 0px rgba(0, 0, 0, 0.3);
+    
 }
 
 .bottom-color {
     width: 100%;
-    background-color:aquamarine;
+    background-color: aqua;
     height: 70%;
     position: absolute;
     bottom: 0;
 }
 
 .creative-intro {
+    position: relative;
+}
+
+.frank {
     position: absolute;
+    width: 50%;
+    height: 10px;
+    background-color: crimson;
+    right: 0;
 }
 
 .creative-box1 {
@@ -106,17 +116,6 @@ body {
     background-color: yellow;
     right: 0;
     bottom: 0;
-}
-
-.creative-squirrel {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-}
-
-.sqrl {
-    width: 200px;
-    height: auto;
 }
 
 .words {
