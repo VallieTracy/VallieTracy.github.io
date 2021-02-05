@@ -93,6 +93,13 @@ body {
     position: relative;
 }
 
+.portal-border2 {
+    box-shadow: inset 0 0 7rem 0px rgba(0, 0, 0, 0.3);
+    border: 13px solid #658CC7;
+    position: relative;
+    padding: unset;
+}
+
 .bottom-color {
     width: 90%;
     background-color: aqua;
@@ -135,8 +142,19 @@ body {
     width: auto;
 }
 
-#tech-write {
-    margin-top: 10px;
+.tech-write-outer {
+    position: relative;
+    height: 90%;
+    width: 80%;
+    background-color: #FFFFFF;
+    margin: 0 auto;
+    transform: translateY(5%);
+    
+}
+
+.not-p {
+    position: absolute;
+    right: 0;
 }
 
 .words {
