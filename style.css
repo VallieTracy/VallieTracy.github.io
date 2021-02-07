@@ -158,16 +158,16 @@ body {
 
 .base-box {
     position: absolute;
-    height: 80%;
     width: 100%;
+    height: 80%;
     background-color: black;
     bottom: 0;
 }
 
 .box1 {
     position: absolute;
-    height: 74%;
     width: 94%;
+    height: 3%;
     background-color: white;
     bottom: 3%;
     left: 3%;
@@ -175,47 +175,129 @@ body {
 
 .box2 {
     position: absolute;
-    height: 68%;
-    width: 84%;
-    background-color: black;
-    bottom: 6%;
+    width: 94%;
+    height: 3%;
+    background-color: white;
+    top: 23%;
     left: 3%;
 }
 
 .box3 {
     position: absolute;
-    height: 62%;
-    width: 81%;
+    width: 3%;
+    height: 74%;
     background-color: white;
-    bottom: 9%;
-    left: 6%;
+    right: 3%;
+    bottom: 3%;
 }
 
 .box4 {
     position: absolute;
-    height: 56%;
-    width: 76%;
-    background-color: black;
-    bottom: 12%;
-    left: 6%;
+    width: 3%;
+    height: 62%;
+    background-color: white;
+    bottom: 9%;
+    left: 3%;
+    
 }
 
 .box5 {
     position: absolute;
-    height: 50%;
-    width: 75%;
+    width: 88%;
+    height: 3%;
     background-color: white;
-    bottom: 15%;
-    left: 9%;
+    top: 29%;
+    left: 3%;
 }
 
 .box6 {
     position: absolute;
-    background-color: black;
-    height: 68%;
-    width: 42%;
-    bottom: 0;
-    left: 18%;
+    width: 88%;
+    height: 3%;
+    background-color: white;
+    bottom: 9%;
+    left: 3%;
+}
+
+.box7 {
+    position: absolute;
+    width: 3%;
+    height: 50%;
+    background-color: white;
+    right: 9%;
+    bottom: 15%;
+}
+
+.box8 {
+    position: absolute;
+    height: 3%;
+    width: 82%;
+    background-color: white;
+    right: 9%;
+    top: 35%;
+}
+
+.box9 {
+    position: absolute;
+    height: 3%;
+    width: 82%;
+    background-color: white;
+    right: 9%;
+    bottom: 15%;
+}
+
+.box10 {
+    position: absolute;
+    width: 3%;
+    height: 38%;
+    background-color: white;
+    left: 9%;
+    bottom: 21%;
+}
+
+.box11 {
+    position: absolute;
+    height: 3%;
+    width: 76%;
+    background-color: white;
+    top: 41%;
+    left: 9%;
+}
+
+.box12 {
+    position: absolute;
+    height: 3%;
+    width: 76%;
+    background-color: white;
+    left: 9%;
+    bottom: 21%;
+}
+
+.box13 {
+    position: absolute;
+    width: 70%;
+    height: 3%;
+    background-color: white;
+    top: 47%;
+    right: 15%;
+}
+
+.box14 {
+    position: absolute;
+    width: 70%;
+    height: 3%;
+    background-color: white;
+    right: 15%;
+    bottom: 27%;
+}
+
+.box15 {
+    position: absolute;
+    width: 3%;
+    height: 20%;
+    background-color: white;
+    right: 15%;
+    bottom: 30%;
 }
 
 .words {
