@@ -146,15 +146,76 @@ body {
     position: relative;
     height: 90%;
     width: 80%;
-    background-color: #FFFFFF;
+    /* background-color: #FFFFFF; */
     margin: 0 auto;
-    transform: translateY(5%);
-    
+    transform: translateY(5%);   
 }
 
 .not-p {
     position: absolute;
-    right: 0;
+    left: 0;
+}
+
+.base-box {
+    position: absolute;
+    height: 80%;
+    width: 100%;
+    background-color: black;
+    bottom: 0;
+}
+
+.box1 {
+    position: absolute;
+    height: 74%;
+    width: 94%;
+    background-color: white;
+    bottom: 3%;
+    left: 3%;
+}
+
+.box2 {
+    position: absolute;
+    height: 68%;
+    width: 84%;
+    background-color: black;
+    bottom: 6%;
+    left: 3%;
+}
+
+.box3 {
+    position: absolute;
+    height: 62%;
+    width: 81%;
+    background-color: white;
+    bottom: 9%;
+    left: 6%;
+}
+
+.box4 {
+    position: absolute;
+    height: 56%;
+    width: 76%;
+    background-color: black;
+    bottom: 12%;
+    left: 6%;
+}
+
+.box5 {
+    position: absolute;
+    height: 50%;
+    width: 75%;
+    background-color: white;
+    bottom: 15%;
+    left: 9%;
+}
+
+.box6 {
+    position: absolute;
+    background-color: black;
+    height: 68%;
+    width: 42%;
+    bottom: 0;
+    left: 18%;
 }
 
 .words {
