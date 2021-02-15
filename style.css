@@ -63,6 +63,7 @@ body {
     width: 100%;
     height: 100%;
     max-height: auto;
+    position: relative;
 }
 
 .overall-container {
@@ -76,28 +77,48 @@ body {
 }
 
 #portal-row {
-    height: calc(100% - 20rem);
+    height: 70%;
     width: 100%;
     padding: 5px;
 }
 
 .portal {
-    padding: 2.125rem 5.875rem;
-    /* border: solid 15px #FF757D; */
-    
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.portal-left {
+    padding-left: 18%;
+    padding-right: 2%;
+}
+
+.portal-right {
+    padding-right: 18%;
+    padding-left: 1%;
 }
 
 .portal-border {
     box-shadow: inset 0 0 7rem 0px rgba(0, 0, 0, 0.3);
-    border: 13px solid #658CC7;
+    border-left: 15px solid white;
     position: relative;
+    padding: unset;
+}
+
+.upper-border {
+    position: absolute;
+    height: 1%;
+    width: 76.5%;
+    right: 6%;
+    top: 2%;
+    background-color: #FF757D;
 }
 
 .portal-border2 {
     box-shadow: inset 0 0 7rem 0px rgba(0, 0, 0, 0.3);
-    border: 13px solid #658CC7;
+    background-color: #FF757D;
     position: relative;
     padding: unset;
+    /* border: solid 3px white; */
 }
 
 .bottom-color {
@@ -148,21 +169,97 @@ body {
     width: 80%;
     /* background-color: #FFFFFF; */
     margin: 0 auto;
-    transform: translateY(5%);   
+    transform: translateY(5%);
 }
 
-.not-p {
+.writings-inner {
+    position: absolute;
+    height: 90%;
+    width: 90%;
+    background-color: #FF757D;
+    bottom: 5%;
+    left: 5%;
+}
+
+.writings-inner2 {
+    position: absolute;
+    height: 96%;
+    width: 96%;
+    background-color: white;
+    box-shadow: inset 0 0 2rem 0px rgba(0, 0, 0, 0.5);
+    bottom: 2%;
+    left: 2%;
+}
+
+.vert-bar {
+    position: absolute;
+    height: 100%;
+    width: 50%;
+    background-color: #322F7C;
+    left: 0;
+}
+
+.writing-intro {
+    position: absolute;
+    height: 65%;
+    width: 85%;
+    background-color: #FF757D;
+    box-shadow: inset 0 0 2rem 0px rgba(0, 0, 0, 0.5);
+    right: 1%;
+    bottom: 1%;
+    border-bottom: solid 5px #322F7C;
+}
+
+.writing-intro2 {
+    position: absolute;
+    height: 65%;
+    width: 85%;
+    background-color: #322F7C;
+    box-shadow: inset 0 0 2rem 0px rgba(0, 0, 0, 0.5);
+    right: 1%;
+    bottom: 1%;
+    border-bottom: solid 5px #FF757D;
+    text-align: justify;
+}
+
+.technical-desc {
+    padding: 20px;
+}
+
+.thick-bar {
+    height: 15%;
+    width: 98%;
+    background-color: #FF757D;
+    position: absolute;
+    bottom: 7%;
+    left: 1%;
+}
+
+.tech-write-up {
     position: absolute;
     left: 0;
+    text-align: justify;
+    padding: 2px;
+    border-bottom: solid #FF757D;
+    height: 40%;
 }
 
 .base-box {
     position: absolute;
     width: 100%;
-    height: 80%;
+    height: 60%;
     background-color: black;
     bottom: 0;
 }
+
+@media screen and (max-width: 1200px) {
+    .base-box {
+      height: 45%;
+    }
+    .tech-write-up {
+        height: 55%;
+    }
+  }
 
 .box1 {
     position: absolute;
@@ -178,14 +275,14 @@ body {
     width: 94%;
     height: 3%;
     background-color: white;
-    top: 23%;
+    top: 43%;
     left: 3%;
 }
 
 .box3 {
     position: absolute;
     width: 3%;
-    height: 74%;
+    height: 54%;
     background-color: white;
     right: 3%;
     bottom: 3%;
@@ -194,7 +291,7 @@ body {
 .box4 {
     position: absolute;
     width: 3%;
-    height: 62%;
+    height: 42%;
     background-color: white;
     bottom: 9%;
     left: 3%;
@@ -206,7 +303,7 @@ body {
     width: 88%;
     height: 3%;
     background-color: white;
-    top: 29%;
+    top: 49%;
     left: 3%;
 }
 
@@ -222,7 +319,7 @@ body {
 .box7 {
     position: absolute;
     width: 3%;
-    height: 50%;
+    height: 30%;
     background-color: white;
     right: 9%;
     bottom: 15%;
@@ -234,7 +331,7 @@ body {
     width: 82%;
     background-color: white;
     right: 9%;
-    top: 35%;
+    top: 55%;
 }
 
 .box9 {
@@ -248,8 +345,8 @@ body {
 
 .box10 {
     position: absolute;
-    width: 3%;
-    height: 38%;
+    width: 1%;
+    height: 18%;
     background-color: white;
     left: 9%;
     bottom: 21%;
@@ -257,16 +354,16 @@ body {
 
 .box11 {
     position: absolute;
-    height: 3%;
+    height: 1%;
     width: 76%;
     background-color: white;
-    top: 41%;
+    top: 61%;
     left: 9%;
 }
 
 .box12 {
     position: absolute;
-    height: 3%;
+    height: 1%;
     width: 76%;
     background-color: white;
     left: 9%;
@@ -275,29 +372,39 @@ body {
 
 .box13 {
     position: absolute;
-    width: 70%;
-    height: 3%;
+    width: 3%;
+    height: 14%;
     background-color: white;
-    top: 47%;
+    top: 63%;
     right: 15%;
 }
 
 .box14 {
     position: absolute;
-    width: 70%;
-    height: 3%;
+    width: 3%;
+    height: 14%;
     background-color: white;
-    right: 15%;
-    bottom: 27%;
+    left: 11%;
+    bottom: 23%;
 }
 
-.box15 {
+.tech-inner {
     position: absolute;
-    width: 3%;
-    height: 20%;
-    background-color: white;
-    right: 15%;
-    bottom: 30%;
+    bottom: 26%;
+    
+    
+    font-size: 2.5em;
+    /* line-height: 1.175; */
+    text-align: center;
+    text-transform: uppercase;
+    color: #FF757D;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 0.45rem;
+    font-size: 1.4em;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .words {
@@ -354,9 +461,14 @@ body {
     transform: translate(-120%, -90%);
     text-align: center;
     padding: 20px;
-    background-color: #322F7C;
+    background-color: white;
     border-style: solid;
     border-color: #FF757D;
+    border-width: 3px;
+}
+
+.img-border {
+    border: solid 2px #322F7C;
 }
 
 .image-text {
@@ -728,7 +840,7 @@ ul {
 
 #footer-divider {
     position: absolute;
-    bottom: 30px;
+    bottom: 5%;
     margin: 0 auto;
     left: 0;
     right: 0;
@@ -739,7 +851,7 @@ ul {
 
 .footer-words {
     position: absolute;
-    bottom: 10px;
+    bottom: 2%;
     left: 0;
     right: 0;
     margin-left: auto;
