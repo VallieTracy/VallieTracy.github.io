@@ -79,7 +79,6 @@ body {
 #portal-row {
     height: 70%;
     width: 100%;
-    padding: 5px;
 }
 
 .portal {
@@ -88,8 +87,8 @@ body {
 }
 
 .portal-left {
-    padding-left: 18%;
-    padding-right: 2%;
+   display: flex;
+   align-items: center;    
 }
 
 .portal-right {
@@ -98,16 +97,43 @@ body {
 }
 
 .portal-border {
-    box-shadow: inset 0 0 7rem 0px rgba(0, 0, 0, 0.3);
-    border: 6px solid #FF757D;
-    position: relative;
-    padding: unset;    
+    border: 1px solid white;
+    background-color: #FF757D;
 }
+
+.container-fluid2 {
+    width: 63%;
+    height: 90%;
+    max-height: auto;
+    position: relative; 
+    margin: 0 auto; 
+    display: flex;
+    align-items: center;  
+}
+
+.inner-boundary {
+    width: 95%;
+    height: 94%;
+    margin: 0 auto;
+    border: solid 1px white;
+    background-color: #322F7C;
+    box-shadow: inset 0 0 7rem 0px rgba(0, 0, 0, 0.3);
+}
+
+/* .top-line {
+    position: absolute;
+    height: 5%;
+    width: 265px;
+    background-color: aqua;
+    top: 5%;
+    left: calc((100% - 265px)/2);
+} */
 
 .left-img {
     position: absolute;
     left: calc((100% - 265px)/2);
     top: calc((100% - 258px)/2);
+    border: solid 4px #FF757D;
 }
 
 .upper-border {
