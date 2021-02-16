@@ -99,9 +99,15 @@ body {
 
 .portal-border {
     box-shadow: inset 0 0 7rem 0px rgba(0, 0, 0, 0.3);
-    border-left: 15px solid white;
+    border: 6px solid #FF757D;
     position: relative;
-    padding: unset;
+    padding: unset;    
+}
+
+.left-img {
+    position: absolute;
+    left: calc((100% - 265px)/2);
+    top: calc((100% - 258px)/2);
 }
 
 .upper-border {
