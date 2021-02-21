@@ -55,10 +55,6 @@ body {
     max-height: auto;
 }
 
-.testing {
-    object-fit: cover;
-}
-
 .container-fluid {
     width: 100%;
     height: 100%;
@@ -86,14 +82,9 @@ body {
     padding-bottom: 2%;
 }
 
-.portal-left {
+.portal-left, .portal-right {
    display: flex;
    align-items: center;    
-}
-
-.portal-right {
-    padding-right: 18%;
-    padding-left: 1%;
 }
 
 /* .portal-border {
@@ -110,8 +101,22 @@ body {
     position: relative; 
     margin: 0 auto; 
     display: flex;
-    align-items: center;  
+    align-items: center;
 }
+
+.cont-left {
+    margin-right: 0;
+}
+
+.cont-right {
+    margin-left: 0;
+}
+
+@media only screen and (max-width: 1067px) {
+    
+    .container-fluid2 {background-color: yellow;}
+    
+  }
 
 .inner-boundary {
     width: 92%;
@@ -131,20 +136,50 @@ body {
     border-top: #FF757D solid 1px;
 }
 
-.left-img {
+.testing3 {
+    height: 20%;
+    width: 20px;
+    position: absolute;
+    border-right: #FF757D solid 3px;
+    border-left: #FF757D solid 13px;
+    right: -5px;
+    
+}
+
+.testing2 {
+    width: 92%;
+    height: 5px;
+    position: absolute;
+    bottom: -1%;
+    left: 4%;
+    border-bottom: #FF757D solid 1px;
+}
+
+.img-writing {
+    display: block;
+    width: 265px;
+    height: 258px;
+    object-fit: cover;
     position: absolute;
     left: calc((100% - 265px)/2);
     top: calc((100% - 258px)/2);
-    border: solid 4px #FF757D;
+}
+
+.img-creative {
+    position: absolute;
+    left: calc((100% - 265px)/2);
+    bottom: calc((100% - 258px)/2);
+    padding: 2%;
 }
 
 .hidden-text {
     position: absolute;
     left: calc((100% - 265px)/2);
     top: calc((100% - 258px)/2); 
-    /* background-color: yellow; */
+    padding: 15px;
     width: 265px;
     height: 258px;
+    z-index: 1;
 }
 
 .upper-border {
@@ -545,8 +580,13 @@ body {
 .writings-hover:hover + .hide {
     display: block;
     color: #322F7C;
-    background-color: rgb(126, 122, 122);
+    background-color: rgb(219, 216, 216);
     opacity: .9;
+}
+
+.emphasis {
+    color: #FF757D;
+    text-transform: uppercase;
 }
 
 #text-overlay {
