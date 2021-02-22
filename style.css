@@ -532,9 +532,10 @@ body {
 }
 
 .album-container {
-    /* box-shadow: inset 0 0 7rem 0px rgba(0, 0, 0, 0.5); */
     padding: 10px;
     margin: 10px;
+    padding-bottom: 2px;
+    margin-bottom: 2px;
 }
 
 .main-content {
@@ -683,13 +684,25 @@ body {
 }
 
 .card-img-top:hover {
-    border-style: ridge;
+    border-style: solid;
     border-width: 5px;
-    border-color: #FF757D;
+    border-color: whitesmoke;
 }
 
 .card-body {
     background-color: #322F7C;
+    border-bottom-left-radius: 0.25rem;
+    border-bottom-right-radius: 0.25rem;
+    padding: 2% 4%;
+    box-shadow: inset 0 0 2rem 0px rgba(0, 0, 0, 0.5);
+    border-left: solid 5px white;
+    border-right: solid 5px white;
+    border-bottom: solid 5px white;
+    border-top: solid 5px white;
+}
+
+.card-body1 {
+    background-color: #FF757D;
     border-bottom-left-radius: 0.25rem;
     border-bottom-right-radius: 0.25rem;
     padding: 2% 4%;
@@ -710,6 +723,14 @@ body {
 
 .card-title, .card-text {
     color: #FF757D;
+}
+
+.card-title1, .card-text1, .card-title2 {
+    color: #322F7C;
+}
+
+.card-text2 {
+    color: white;
 }
 
 #text02 {
@@ -969,14 +990,30 @@ ul {
 }
 
 #footer-divider {
-    position: absolute;
-    bottom: 5%;
+    /* position: absolute; */
+    /* bottom: 5%; */
     margin: 0 auto;
-    left: 0;
-    right: 0;
+    /* left: 0;
+    right: 0; */
     height: 15px;
     border-top: solid 2px #FF757D;
     opacity: 0.2;    
+}
+
+.proj-footer-text {
+    margin: 0 auto;
+    color: #FF757D;
+}
+
+.val {
+    width: 97%;
+    margin: 0 auto;
+    border-top: solid 2px #FF757D;
+    opacity: 0.4;
+}
+
+.proj-pgs {
+    padding-bottom: 3%;
 }
 
 .footer-words {
