@@ -67,6 +67,16 @@ body {
     box-shadow: inset 0 0 7rem 0px rgba(0, 0, 0, 0.5);
 }
 
+.index-text {
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    /* letter-spacing: 0.65rem; */
+    /* width: 100%; */
+    font-size: 14px;
+    /* line-height: 1.175; */
+    /* font-weight: 500; */
+}
+
 #make-space {
     padding-top: 0px;
     padding-bottom: 0px;
@@ -675,18 +685,25 @@ body {
 .card-body {
     padding: unset;
     /* margin-top: 1rem; */
-    background-color: rgb(99, 96, 96);
+    background-color: #FF757D;
     border-bottom-left-radius: 0.25rem;
     border-bottom-right-radius: 0.25rem;
     border-style: solid!important;
     border-top: rgba(0, 0, 0, 0.5);
+    box-shadow: inset 0 0 2rem 0px rgba(0, 0, 0, 0.5);
+    /* margin: 5px; */
+}
+
+.card-title, .card-text {
+    margin: 7px;
+    padding-bottom: 7px;
 }
 
 .card {
     height: 100%;
     border-style: solid;
-    border-width: 3px  ;
-    border-color: #322F7C;
+    border-width: 2px;
+    border-color: #FF757D;
     box-shadow: 0 .125rem .25rem rgba(0,0,0,.75)!important;
 }
 
@@ -728,12 +745,13 @@ p {
 .btn {
     color: #322F7C;
     font-family: 'Oswald', sans-serif;
-    font-size: 1.1em ;
+    font-size: 16px;
     background-color: #FF757D; 
     width: 9rem; 
     margin: 20px;
     text-shadow: none;
     letter-spacing: 0.2rem;
+    font-weight: bold;
 }
 
 .btn:hover {
@@ -875,6 +893,15 @@ ul {
     padding-left: 90px;
 }
 
+.left-text:hover {
+    background-color: white;
+    color: #322F7C;
+}
+
+.right-text:hover {
+    color: white;
+}
+
 #right-link {
     padding-right: 90px;
 }
@@ -902,8 +929,8 @@ ul {
 
 #icons01 li a {
     border-radius: 100%;
-    width: 2em;
-    height: 2em;
+    width: 2.3em;
+    height: 2.3em;
 }
 
 .icons li a {
