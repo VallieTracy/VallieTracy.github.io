@@ -56,11 +56,34 @@ body {
 
 .resume {
     border: groove 3px #322F7C; 
-    background-color: white;   
+    background-color: yellow;   
 }
 
-.row-bio{
-    width: 80%;
+.row-top {
+    padding-bottom: 0!important;
+    padding-left: 0!important;
+    padding-right: 0!important;
+}
+
+.row-bottom {
+    padding-top: 0!important;
+    padding-left: 0!important;
+    padding-right: 0!important;
+}
+
+.job-title-left {
+    color: #322F7C;
+    font-weight: 650;
+    text-align: left;
+    font-size: 14px;
+}
+
+.job-title-right {
+    color: #322F7C;
+    font-weight: 650;
+    text-align: right;
+    font-size: 14px;
+    font-family: 'Oswald', sans-serif;
 }
 
 #main {
@@ -965,6 +988,8 @@ ul {
     margin-inline-end: 0px;
     padding-inline-start: 40px;
 }
+
+
 
 #col-header {
     padding: 0px;
