@@ -21,6 +21,10 @@ body {
     background-color: #322F7C;
 }
 
+.color-bio {
+    background-color: white;
+}
+
 body {
     display: -ms-flexbox; 
     display: flex; 
@@ -39,6 +43,24 @@ body {
     line-height: 1.175;
     font-weight: 500;
     margin: unset;
+}
+
+#bio-header {
+    color: #322F7C;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 0.65rem;
+    text-align: center;
+    text-decoration: underline;
+    font-weight: 1000;
+}
+
+.resume {
+    border: groove 3px #322F7C; 
+    background-color: white;   
+}
+
+.row-bio{
+    width: 80%;
 }
 
 #main {
