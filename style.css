@@ -55,7 +55,7 @@ body {
 }
 
 .resume {
-    border: groove 3px #322F7C; 
+    border: ridge 5px #322F7C; 
     background-color: white;   
 }
 
@@ -89,6 +89,23 @@ body {
     text-align: right;
     font-size: 14px;
     font-family: 'Oswald', sans-serif;
+}
+
+#body-text {
+    color: #322F7C;
+    font-size: 14px;
+}
+
+.text-15 {
+    padding-left: 15px!important;
+}
+
+#top-space {
+    margin-top: 15px;
+}
+
+.bottom-space {
+    margin-bottom: 25px!important;
 }
 
 #main {
