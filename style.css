@@ -71,6 +71,20 @@ body {
     left: calc(50% - 16px);
 }
 
+#click-text {
+    color: #322F7C;
+    font-size: 16px;
+}
+
+.left-click {
+    opacity: 0.2;
+}
+
+.click-hover:hover {
+    text-decoration: none;
+    font-weight: 900;
+}
+
 .resume01 {
     position: relative;
     display: flex;
