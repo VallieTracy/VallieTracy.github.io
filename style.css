@@ -646,8 +646,7 @@ body {
 
 .right-text {
     color: #FF757D;
-    font-size: 16px;
-    
+    font-size: 16px;   
 }
 
 .album-container {
@@ -861,7 +860,7 @@ body {
     font-size: 1em;
     line-height: 1.675;
     font-weight: 200;
-  }
+}
 
 p {
     display: block;
