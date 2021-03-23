@@ -101,10 +101,7 @@ body {
     font-size: 15px;
 }
 
-.btn {
-    color: #322F7C;
-    font-size: 16px;
-    background-color: #FF757D; 
+.btn { 
     width: 9rem; 
     margin: 20px;
     text-shadow: none;
@@ -116,9 +113,7 @@ body {
 }
 
 #index-divider {
-    margin: 0 auto;
     width: 55%;
-    height: 15px;
     border-bottom: solid 1px #FF757D;
 }
 
@@ -183,7 +178,14 @@ body {
     width: auto;
 }
 
-/* Projects.html */
+p {
+    display: block;
+    margin-block-start: 1rem;
+    margin-block-end: 1rem;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
 #col-header {
     padding: 0px;
 }
@@ -202,21 +204,33 @@ li {
     padding-inline-start: 0px;
 }
 
+.btn, .left-text {
+    color: #322F7C;
+    font-size: 16px;
+    background-color: #FF757D;
+}
+
+#header-divider, #index-divider {
+    margin: 0 auto;
+    height: 15px;
+}
+
+/* Projects.html */
 #left-link {
     padding-left: 90px;
 }
 
+#right-link {
+    padding-right: 90px;
+}
+
 .left-text {
-    color: #322F7C;
-    font-size: 16px;
     font-weight: bold;
-    background-color: #FF757D;
     border-radius: 4px;
     border: solid 1px #322F7C;
 }
 
 #header-text {
-    font-family: 'Oswald', sans-serif;
     text-shadow: none;
     letter-spacing: 0.2rem;
 }
@@ -235,34 +249,18 @@ li {
     color: white;
 }
 
-#right-link {
-    padding-right: 90px;
-}
-
-.proj-div-w {
+.header-row {
     width: calc(100% - 86px);
 }
 
 #header-divider {
-    margin: 0 auto;
-    height: 15px;
     border-top: solid 2px #FF757D;
     margin-bottom: 5px;
 }
 
-.words {
-    text-transform: uppercase;
-    color: #FF757D;
-    font-family: 'Oswald', sans-serif;
-    letter-spacing: 0.65rem;
-    /* width: calc(100% + 0.65rem); */
-    font-size: 2.5rem;
-    line-height: 1.175;
-    font-weight: 500;
+.subject {
     text-align: center;
-    margin: 0 auto;
     padding: 10px;
-    /* border: solid 3px #FF757D; */ 
 }
 
 .album-container {
@@ -274,9 +272,6 @@ li {
 
 .card {
     height: 100%;
-    /* border-style: solid;
-    border-width: 2px;
-    border-color: #FF757D; */
     box-shadow: 0 .125rem .25rem rgba(0,0,0,.75)!important;
 }
 
@@ -319,7 +314,6 @@ li {
 
 #text-small {
     color: rgba(255,255,255,0.761);
-    font-family: 'Oswald', sans-serif;
     letter-spacing: 0.05rem;
     width: calc(100% + 0.05rem);
     font-size: 1em;
@@ -327,15 +321,7 @@ li {
     font-weight: 200;
 }
 
-p {
-    display: block;
-    margin-block-start: 1rem;
-    margin-block-end: 1rem;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-}
-
-.val {
+.footer-row {
     width: 97%;
     margin: 0 auto;
     border-top: solid 2px #FF757D;
