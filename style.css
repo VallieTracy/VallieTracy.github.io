@@ -160,12 +160,16 @@ body {
 }
 
 .container-fluid {
-    width: 100%;
-    height: 100%;
     max-height: auto;
     position: relative;
 }
 
+.container-fluid, .overall-container {
+    width: 100%;
+    height: 100%;
+}
+
+/* aboutMe.html, writings_new.html, index.html */
 .overall-container {
     position: fixed;
     box-shadow: inset 0 0 7rem 0px rgba(0, 0, 0, 0.5);
@@ -883,7 +887,7 @@ p {
     margin: 20px;
     text-shadow: none;
     letter-spacing: 0.2rem;
-    font-weight: bold;
+    font-weight: 500;
 }
 
 .btn:hover {
