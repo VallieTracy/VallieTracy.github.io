@@ -17,7 +17,7 @@ body {
     box-shadow: inset 0 0 7rem 0px rgba(0, 0, 0, 0.5);
 }
 
-.container-fluid {
+.container-fluid, .container-fluid2 {
     max-height: auto;
     position: relative;
 }
@@ -344,9 +344,7 @@ li {
 
 .container-fluid2 {
     width: 63%;
-    height: 90%;
-    max-height: auto;
-    position: relative; 
+    height: 90%; 
     margin: 0 auto; 
     display: flex;
     align-items: center;
@@ -354,15 +352,6 @@ li {
 
 .cont-left {
     margin-right: 0;
-}
-
-.upper-bar {
-    width: 92%;
-    height: 5px;
-    position: absolute;
-    top: -1%;
-    left: 4%;
-    border-top: #FF757D solid 1px;
 }
 
 .inner-boundary {
@@ -381,45 +370,45 @@ li {
     opacity: .9;
 }
 
-.img-writing {
-    display: block;
+.img-writing, .hidden-text {
     width: 265px;
     height: 258px;
-    object-fit: cover;
-    position: absolute;
-    left: calc((100% - 265px)/2);
     top: calc((100% - 258px)/2);
+}
+
+.img-writing, .hidden-text, .img-writings {
+    left: calc((100% - 265px)/2);
+}
+
+.img-writing, .hidden-text, .img-writings, .upper-bar, .lower-bar {
+    position: absolute;
+}
+
+.img-writing {
+    display: block;
+    object-fit: cover;
 }
 
 .hide {
     display: none;
 }
 
-.hidden-text {
-    position: absolute;
-    left: calc((100% - 265px)/2);
-    top: calc((100% - 258px)/2); 
+.hidden-text { 
     padding: 15px;
-    width: 265px;
-    height: 258px;
     z-index: 1;
 }
 
-.emphasis {
+.emphasis, #text-overlay {
     color: #FF757D;
     text-transform: uppercase;
 }
 
 .img-writings {
-    position: absolute;
-    left: calc((100% - 265px)/2);
     bottom: calc((100% - 258px)/2);
     padding: 2%;
 }
 
 #text-overlay {
-    text-transform: uppercase;
-    color: #FF757D; 
     font-family: 'Oswald', sans-serif;
     letter-spacing: 0.55rem;
     font-weight: bold;  
@@ -429,13 +418,21 @@ li {
     margin-left: 0;
 }
 
-.lower-bar {
+.lower-bar, .upper-bar {
     width: 92%;
     height: 5px;
-    position: absolute;
-    bottom: -1%;
     left: 4%;
+}
+
+.lower-bar {
+    bottom: -1%;    
     border-bottom: #FF757D solid 1px;
+}
+
+.upper-bar {
+    position: absolute;
+    top: -1%;
+    border-top: #FF757D solid 1px;
 }
 
 /* Footer */
