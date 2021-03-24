@@ -332,3 +332,137 @@ li {
     margin: 0 auto;
     color: #FF757D;
 }
+
+/* Writings.html */
+.make-space {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+#portal-row {
+    height: 70%;
+    width: 100%;
+}
+
+.portal {
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.portal-left, .portal-right {
+   display: flex;
+   align-items: center;    
+}
+
+.container-fluid2 {
+    width: 63%;
+    height: 90%;
+    max-height: auto;
+    position: relative; 
+    margin: 0 auto; 
+    display: flex;
+    align-items: center;
+}
+
+/* .portal-border {
+    border-bottom: 4px solid white;
+    border-top: 4px solid white;
+    background-color: #322F7C;
+    
+} */
+
+.cont-left {
+    margin-right: 0;
+}
+
+.testing {
+    width: 92%;
+    height: 5px;
+    position: absolute;
+    top: -1%;
+    left: 4%;
+    border-top: #FF757D solid 1px;
+}
+
+.inner-boundary {
+    width: 92%;
+    height: 96%;
+    margin: 0 auto;
+    border: solid 1px #FF757D;
+    background-color: #322F7C;
+    box-shadow: inset 0 0 7rem 0px rgba(0, 0, 0, 0.3);
+}
+
+.writings-hover:hover + .hide {
+    display: block;
+    color: #322F7C;
+    background-color: rgb(219, 216, 216);
+    opacity: .9;
+}
+
+.img-writing {
+    display: block;
+    width: 265px;
+    height: 258px;
+    object-fit: cover;
+    position: absolute;
+    left: calc((100% - 265px)/2);
+    top: calc((100% - 258px)/2);
+}
+
+.hide {
+    display: none;
+}
+
+.hidden-text {
+    position: absolute;
+    left: calc((100% - 265px)/2);
+    top: calc((100% - 258px)/2); 
+    padding: 15px;
+    width: 265px;
+    height: 258px;
+    z-index: 1;
+}
+
+.emphasis {
+    color: #FF757D;
+    text-transform: uppercase;
+}
+
+.img-creative {
+    position: absolute;
+    left: calc((100% - 265px)/2);
+    bottom: calc((100% - 258px)/2);
+    padding: 2%;
+}
+
+#text-overlay {
+    text-transform: uppercase;
+    color: #FF757D; 
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 0.55rem;
+    font-weight: bold;  
+}
+
+.cont-right {
+    margin-left: 0;
+}
+
+.testing2 {
+    width: 92%;
+    height: 5px;
+    position: absolute;
+    bottom: -1%;
+    left: 4%;
+    border-bottom: #FF757D solid 1px;
+}
+
+.val2 {
+    width: calc(100% - 116px);
+    /* margin: 0 auto; */
+    border-top: solid 2px #FF757D;
+    opacity: 0.4;
+    position: absolute;
+    bottom: 0;
+    left: 58px;
+}
