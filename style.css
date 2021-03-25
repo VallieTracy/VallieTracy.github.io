@@ -873,8 +873,6 @@ p {
 .writing-p {
     font-family: 'Oswald', sans-serif;
     text-align: left;
-    margin-left: 25px;
-    margin-right: 25px;
 }
 
 .btn {
@@ -1127,6 +1125,7 @@ li {
     position: sticky;
     top: calc(100vh - 150px);
     left: 50px; 
+    z-index: 2;
 }
 
 #sticky-header {
