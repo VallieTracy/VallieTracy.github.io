@@ -53,6 +53,9 @@ body {
 
 .center-content {
     padding: 3.875rem 3.125rem;
+}
+
+.center-content, .center-content-creative {
     max-width: 100%;
     width: 45rem;
     margin: 3px;
@@ -449,27 +452,19 @@ li {
     z-index: 2;
 }
 
-.center-content-expand {
-    padding: 3.875rem 3.125rem;
-    max-width: 100%;
-    width: 45rem;
-    margin: 3px;
-}
-
-#color-change {
-    /* background-color: rgb(226, 221, 221); */
-    /* box-shadow: inset 0 0 7rem 0px rgba(0, 0, 0, 0.5); */
-    padding-top: .05rem;
-}
-
-.writing-p {
-    font-family: 'Oswald', sans-serif;
+.center-content-creative {
+    padding-top: 0.05rem;
+    padding-right: 3.125rem;
+    padding-bottom: 3.875rem;
+    padding-left: 3.125rem;
     text-align: left;
 }
 
-/* #divider-row {
-   position: relative;
-} */
+.wr-p-intro {
+    color: #12f5d7;
+    font-size: 16px;
+    letter-spacing: 0.08rem;
+}
 
 #divider-top {
     width: 100%;
@@ -477,10 +472,13 @@ li {
 }
 
 #divider-long {
-    position: relative;
-    width: 300px;
     height: 25px;
     border-bottom: solid 1px #FF757D;
+}
+
+#divider-long, .story-box-a {
+    position: relative;
+    width: 300px;
     top: 50%;
     left: 50%;
     transform: translate(-10%, -42%);
@@ -491,16 +489,10 @@ li {
     height: 250px;
     width: 100%;
     position: relative;
-    /* overflow: hidden; */
 }
 
 .story-box-a {
-    width: 300px;
     height: 175px;
-    position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-10%, -42%);
     border-style: solid;
     border-width: 3px;
     border-color: #322F7C;
@@ -512,31 +504,28 @@ li {
 }
 
 .writing-title {
-    font-family: 'Oswald', sans-serif;
-    /* text-align: left; */
     letter-spacing: 0.45rem;
-    font-size: 1.95em;
+    font-size: 1.95rem;
     line-height: 1.25em;
-    margin: 5px;
-    text-align: left;    
+    margin: 5px;    
 }
 
 .txt1 {
+    bottom: 21px;    
+    font-weight: bolder;
+}
+
+.txt1, .txt2 {
     position: absolute;
-    bottom: 21px;
     left: 5px;
     margin: unset;
     line-height: 1;
-    font-weight: bolder;
-    font-size: small;
+    letter-spacing: 0.08rem;
+    font-size: 15px;
 }
 
 .txt2 {
-    position: absolute;
     bottom: 1px;
-    left: 5px;
-    margin: unset;
-    line-height: 1;
     font-style: italic;
 }
 
