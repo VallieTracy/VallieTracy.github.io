@@ -1,7 +1,19 @@
+
+/* add height: auto back in here if things get funky and dink around with
+html height 100 and body min-height 100 */
+/* I made it this way because of the story html linked to from 'read more' */
 html,
 body {
-    height: auto;
     font-family: 'Oswald', sans-serif;
+}    
+
+
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
 }
 
 .color-index, .color-projects, .color-writings,
