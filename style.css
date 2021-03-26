@@ -175,7 +175,8 @@ body {
 #story-main {
     display: flex;
     justify-content: center;
-    padding-top: 4%;    
+    padding-top: 4%; 
+    padding-bottom: 4%;   
 }
 
 .container-fluid {
@@ -801,9 +802,11 @@ body {
     max-width: 100%;
     width: 45rem;
     margin: 3px;
-    color: black;
-    background-color: white;
+    color: #322F7C;
+    background-color: #FF757D;
+    border: solid 10px white;
 }
+
 
 .center-content-writing {
     padding: 0.875rem 3.125rem;
@@ -1019,7 +1022,7 @@ p {
     font-family: 'Oswald', sans-serif;
     /* text-align: left; */
     letter-spacing: 0.45rem;
-    font-size: 1.95em;
+    font-size: 12px;
     line-height: 1.25em;
     margin: 5px;
     text-align: left;    
@@ -1216,12 +1219,12 @@ li {
 
 .val3 {
     width: calc(100% - 116px);
+    margin: 0 auto;
     border-top: solid 2px #FF757D;
     opacity: 0.4;
-    margin-top: 4%;
     position: absolute;
     bottom: 0;
-    margin: 0 auto;
+    left: 58px;
 }
 
 .proj-pgs {

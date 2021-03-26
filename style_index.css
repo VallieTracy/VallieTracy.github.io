@@ -473,7 +473,7 @@ li {
 }
 
 .wr-p-intro {
-    color: #12f5d7;
+    color: white;
     font-size: 16px;
     letter-spacing: 0.08rem;
 }
@@ -516,10 +516,11 @@ li {
 }
 
 .writing-title {
-    letter-spacing: 0.45rem;
-    font-size: 1.95rem;
-    line-height: 1.25em;
-    margin: 5px;    
+    letter-spacing: 0.05rem;
+    font-size: 27px;
+    margin: 5px;
+    color: #322F7C; 
+    font-weight: 700;
 }
 
 .txt1 {
@@ -545,6 +546,58 @@ li {
     margin-top: 0px;
     color: #FF757D;
     text-shadow: unset!important;
+}
+
+/* Creative Individual Story html */
+.story-content {
+    max-height: none!important;
+    position: relative;
+    height: auto!important;
+    min-height: auto;
+    overflow: hidden;
+}
+
+.words {
+    text-transform: uppercase;
+    color: #FF757D;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 0.65rem;
+    /* width: calc(100% + 0.65rem); */
+    font-size: 2.5rem;
+    line-height: 1.175;
+    font-weight: 500;
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px;
+    /* border: solid 3px #FF757D; */ 
+}
+
+#story-main {
+    display: flex;
+    justify-content: center;
+    padding-top: 4%; 
+    padding-bottom: 4%;   
+}
+
+.center-content-story {
+    padding: 3.125rem;
+    max-width: 100%;
+    width: 45rem;
+    margin: 3px;
+    color: #322F7C;
+    background-color: #FF757D;
+    border: solid 10px white;
+    letter-spacing: 0.15rem;
+}
+
+.val3 {
+    width: calc(100% - 116px);
+    margin: 0 auto;
+    border-top: solid 2px #FF757D;
+    opacity: 0.4;
+    position: absolute;
+    bottom: 0;
+    left: 58px;
 }
 
 /* Footer */
