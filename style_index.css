@@ -572,22 +572,42 @@ li {
     /* border: solid 3px #FF757D; */ 
 }
 
+#text01 {
+    color: #FF757D;
+    letter-spacing: 0.65rem;
+    width: 100%;
+    font-size: 2.75em;
+    line-height: 1.175;
+    font-weight: 500;
+    margin: unset;
+}
+
 #story-main {
     display: flex;
     justify-content: center;
-    padding-top: 4%; 
+    padding-top: 2%; 
     padding-bottom: 4%;   
 }
 
 .center-content-story {
-    padding: 3.125rem;
+    padding: 1.75rem 3.125rem;
     max-width: 100%;
     width: 45rem;
-    margin: 3px;
+    margin-bottom: 1%;
     color: #322F7C;
     background-color: #FF757D;
     border: solid 10px white;
     letter-spacing: 0.15rem;
+}
+
+#story-title {
+    text-transform: uppercase;
+    text-decoration: underline;
+    margin-bottom: 20px;
+    justify-content: space-evenly; 
+    letter-spacing: 0.35rem; 
+    font-weight: bold;
+    font-size: 18px;  
 }
 
 .val3 {
