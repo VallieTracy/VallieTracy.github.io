@@ -17,7 +17,7 @@ body {
 }
 
 .color-index, .color-projects, .color-writings,
-.color-creative {
+.color-creative, .color-bio {
     background-color: #322F7C;
 }
 
@@ -620,6 +620,130 @@ li {
     left: 58px;
 }
 
+/* About/Bio html */
+.res-top {
+    display: flex;
+    flex-direction: column;
+}
+
+.argh {
+    position: relative;
+}
+
+.resume {
+    border: ridge 5px #322F7C; 
+    background-color: white;   
+}
+
+.resume01 {
+    position: relative;
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+}
+
+#bio-header {
+    color: #322F7C;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 0.65rem;
+    text-align: center;
+    text-decoration: underline;
+    font-weight: 1000;
+}
+
+.row-top {
+    padding-bottom: 0!important;
+    padding-left: 0!important;
+    padding-right: 0!important;
+}
+
+#top-space {
+    margin-top: 15px;
+}
+
+.job-title-left {
+    color: #322F7C;
+    font-weight: 650;
+    text-align: left;
+    font-size: 14px;
+}
+
+.job-title-right {
+    color: #322F7C;
+    font-weight: 650;
+    text-align: right;
+    font-size: 14px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.row-bottom {
+    padding-top: 0!important;
+    padding-left: 0!important;
+    padding-right: 0!important;
+}
+
+.text-15 {
+    padding-left: 15px!important;
+}
+
+#body-text {
+    color: #322F7C;
+    font-size: 14px;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+ul.acc-list {
+    display: block;
+    margin-block: 0;
+}
+
+.resume-click {
+    flex: 1 1 auto;
+    position: relative;
+}
+
+.clicker {
+    height: min-content;
+    position: absolute;
+    bottom: 50%;
+    left: calc(50% - 16px);
+}
+
+#click-text {
+    color: #322F7C;
+    font-size: 16px;
+}
+
+.resume-arrow {    
+    width: 20px;
+    height: auto;
+}
+
+.hide-me {
+    display: none;
+}
+
+.arrows:hover img.resume-arrow {
+    display: none;
+}
+
+.arrows:hover img.hide-me {
+    display: unset;
+}
+
+.bottom-space {
+    margin-bottom: 25px!important;
+}
+
 /* Footer */
 .footer-row {
     width: 97%;
@@ -642,3 +766,5 @@ li {
     margin: 0 auto;
     color: #FF757D;
 }
+
+

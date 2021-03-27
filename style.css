@@ -98,6 +98,18 @@ body {
     font-weight: 900;
 }
 
+.hide-me {
+    display: none;
+}
+
+.arrows:hover img.resume-arrow {
+    display: none;
+}
+
+.arrows:hover img.hide-me {
+    display: unset;
+}
+
 .resume01 {
     position: relative;
     display: flex;
@@ -1152,6 +1164,11 @@ li {
     border-color: white;
 }
 
+.resume-arrow {    
+    width: 20px;
+    height: auto;
+}
+
 .icons li a {
     display: flex;
     align-items: center;
@@ -1215,6 +1232,10 @@ li {
     position: absolute;
     bottom: 0;
     left: 58px;
+}
+
+.div-spaces {
+    margin-left: 5px;
 }
 
 .val3 {
