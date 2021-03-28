@@ -693,7 +693,7 @@ ul.acc-list {
 .page-changer {
     height: min-content;
     position: absolute;
-    bottom: 50%;
+    bottom: 25px;
     left: 45%;
 }
 
@@ -704,6 +704,11 @@ ul.acc-list {
 
 .resume-arrow {    
     width: 20px;
+    height: auto;
+}
+
+.testing-arrow {
+    width: 22px;
     height: auto;
 }
 
@@ -722,7 +727,11 @@ ul.acc-list {
 }
 
 .arrows:hover img.hide-me {
-    display: unset;
+    display: unset;   
+}
+
+a {
+    display: inline-block;
 }
 
 .bottom-space {
