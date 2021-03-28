@@ -621,13 +621,10 @@ li {
 }
 
 /* About/Bio html */
-.res-top {
+.res-top, .resume01 {
     display: flex;
     flex-direction: column;
-}
-
-.argh {
-    position: relative;
+    position: relative
 }
 
 .resume {
@@ -636,19 +633,15 @@ li {
 }
 
 .resume01 {
-    position: relative;
-    display: flex;
-    flex-flow: column;
     height: 100%;
 }
 
 #bio-header {
     color: #322F7C;
-    font-family: 'Oswald', sans-serif;
     letter-spacing: 0.65rem;
     text-align: center;
     text-decoration: underline;
-    font-weight: 1000;
+    font-weight: 900;
 }
 
 .row-top {
@@ -661,19 +654,20 @@ li {
     margin-top: 15px;
 }
 
-.job-title-left {
+.job-title-left, .job-title-right,
+#body-text {
     color: #322F7C;
-    font-weight: 650;
-    text-align: left;
     font-size: 14px;
 }
 
+.job-title-left {
+    text-align: left;
+    font-weight: 650;;    
+}
+
 .job-title-right {
-    color: #322F7C;
-    font-weight: 650;
     text-align: right;
-    font-size: 14px;
-    font-family: 'Oswald', sans-serif;
+    font-weight: 650;
 }
 
 .row-bottom {
@@ -686,21 +680,6 @@ li {
     padding-left: 15px!important;
 }
 
-#body-text {
-    color: #322F7C;
-    font-size: 14px;
-}
-
-ul {
-    display: block;
-    list-style-type: disc;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 40px;
-}
-
 ul.acc-list {
     display: block;
     margin-block: 0;
@@ -711,11 +690,11 @@ ul.acc-list {
     position: relative;
 }
 
-.clicker {
+.page-changer {
     height: min-content;
     position: absolute;
     bottom: 50%;
-    left: calc(50% - 16px);
+    left: 45%;
 }
 
 #click-text {
@@ -728,8 +707,14 @@ ul.acc-list {
     height: auto;
 }
 
+.opaque {
+    opacity: 0.2;
+}
+
 .hide-me {
     display: none;
+    width: 20px;
+    height: auto;
 }
 
 .arrows:hover img.resume-arrow {
