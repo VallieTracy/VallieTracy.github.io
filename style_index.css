@@ -716,6 +716,10 @@ ul.acc-list {
     opacity: 0.2;
 }
 
+.white {
+    color: white!important;
+}
+
 .hide-me {
     display: none;
     width: 20px;
