@@ -385,6 +385,10 @@ li {
     opacity: .9;
 }
 
+.lemon {
+    font-size: 13px;
+}
+
 .img-writing, .hidden-text {
     width: 265px;
     height: 258px;
